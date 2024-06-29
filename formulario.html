@@ -1,0 +1,131 @@
+<html>
+	<head>
+		<title>Formulario</title>
+	</head>
+	<body bgcolor="#57a639">
+		<form name="datos" method="POST" action="">
+			<table>
+				<tr>
+					<td>Nombre del estudiante:</td>
+					<td colspan="3">
+						<input type="text" name="nestudiante" size="30" maxlength="60">
+					</td>
+				</tr>
+				<tr>
+					<td>Apellido del estudiante:</td>
+					<td colspan="3">
+						<input type="text" name="aestudiante" size="30" maxlength="60">
+					</td>
+				</tr>
+				<tr>
+					<td>Edad:</td>
+					<td colspan="3">
+						<input type="number" name="edad" size="10" maxlength="10">
+					</td>
+				</tr>
+				<tr>
+					<td>Fecha de Nacimiento:</td>
+					<td colspan="3">
+						<input type="date" name="fechaNac">
+					</td>
+				</tr>
+				<tr>
+					<td>Sexo:</td>
+					<td>
+						<input type="radio" name="sexo" value="M">Masculino
+						<input type="radio" name="sexo" value="F">Femenino
+					</td>
+					<td>Estado Civil:</td>
+					<td>
+						<select name="estado">
+							<option value="1">Soltero</option>
+							<option value="2">Casado</option>
+							<option value="3">Divorciado</option>
+							<option value="4">Viudo</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Idiomas:</td>
+					<td colspan="3">
+						<input type="checkbox" name="idiomas" value="1">Espanol
+						<input type="checkbox" name="idiomas" value="2">Frances
+						<input type="checkbox" name="idiomas" value="3">Ingles
+						<input type="checkbox" name="idiomas" value="4">Aleman
+					</td>
+				</tr>
+					<td>Selecciona la oferta academica a inscribir:</td>
+					<td>
+						<select name="ofertaacademica">
+							<option value="1">Selecciona una opción...</option>
+							<option value="2">Educacion Parvularia opcion Kinder 4 años</option>
+							<option value="3">Educacion Parvularia opcion Kinder 5 años</option>
+							<option value="4">Educacion Parvularia opcion Preparatoria 6 años</option>
+							<option value="5">Educacion Basica 1º grado</option>
+							<option value="6">Educacion Basica 2º grado</option>
+							<option value="7">Educacion Basica 3º grado</option>
+							<option value="8">Educacion Basica 4º grado</option>
+							<option value="9">Educacion Basica 5º grado</option>
+							<option value="10">Educacion Basica 6º grado</option>
+							<option value="11">Educacion Basica 7º grado</option>
+							<option value="12">Educacion Basica 8º grado</option>
+							<option value="13">Educacion Basica 9º grado</option>
+							<option value="14">Bachillerato General con diplomado en Gastronomia</option>
+							<option value="15">Bachillerato General con diplomado en Hosteleria y Turismo</option>
+							<option value="16">Bachillerato General con diplomado en Idioma Ingles</option>
+							<option value="17">Bachillerato General con diplomado en Diseño Grafico</option>
+							<option value="18">Bachillerato General con diplomado en Salud</option>
+							<option value="19">Bachillerato Tecnico Vocacional con diplomado en Administracion de negocios</option>
+							
+						</select>
+					</td>
+				<tr>
+					<td>Nombre completo del representante:</td>
+					<td colspan="3">
+						<input type="text" name="representante" size="60" maxlength="60">
+					</td>
+				</tr>
+				<tr>
+					<td>Direccion permanente:</td>
+					<td colspan="3">
+						<input type="text" name="direccion" size="60" maxlength="60">
+					</td>
+				</tr>
+				<tr>
+					<td>Numero de telefono:</td>
+					<td colspan="8">
+						<input type="number" name="telefono">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Correo Electronico:</td>
+					<td colspan="3">
+						<input type="email" name="email">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Comentarios Personales:</td>
+					<td colspan="3">
+						<textarea name="comentarios" rows="2" cols="60">
+						
+						</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Pulse Aqui</td>
+					<td colspan="3">
+						<input type="submit" name="enviar" value="Enviar Datos">
+						<input type="reset" name="borrar" value="Borrar Datos">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+	<footer>
+		<p align="right" height="25" bgcolor="#ff0000">
+			<a href="index.html" style="text-decoration: none">Regresar >>></a>
+		</p>
+	</footer>
+</html>
